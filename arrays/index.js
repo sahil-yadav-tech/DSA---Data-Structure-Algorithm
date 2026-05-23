@@ -1,14 +1,14 @@
 const arr = [1, 2, 3, 4, 5];
-function findMax(arr) {
-    let max = arr[0];
+function findMin(arr) {
+    let min = arr[0];
 
     for (let num of arr) {
-        if (num > max) {
-            max = num;
+        if (num < min) {
+            min = num;
         }
     }
 
-    return max;
+    return min;
 }
 
-console.log(findMax([2, 8, 1, 15, 3]));
+console.log(findMin([5, 2, 9, 1]));
