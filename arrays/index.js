@@ -1,17 +1,14 @@
 const arr = [1, 2, 3, 4, 5];
-function reverseArray(arr) {
-    let start = 0;
-    let end = arr.length - 1;
+function findMax(arr) {
+    let max = arr[0];
 
-    while (start < end) {
-        // swap
-        [arr[start], arr[end]] = [arr[end], arr[start]];
-
-        start++;
-        end--;
+    for (let num of arr) {
+        if (num > max) {
+            max = num;
+        }
     }
 
-    return arr;
+    return max;
 }
 
-console.log(reverseArray([1, 2, 3, 4, 5]));
+console.log(findMax([2, 8, 1, 15, 3]));
