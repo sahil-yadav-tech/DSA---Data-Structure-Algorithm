@@ -221,3 +221,19 @@ By practicing these questions, you'll gradually build up from basic to more soph
 
 ChatGPT can make mistakes. Check important info.
 ?
+
+
+
+You should add:
+
+Problem statement
+Brute force approach
+Optimized approach
+Time complexity
+Space complexity
+Step-by-step explanation
+Clean code
+Edge cases
+Interview notes
+Real-world usage
+Multiple approaches if possible

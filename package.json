@@ -1,0 +1,11 @@
+{
+  "name": "javascript-dsa-interview-prep",
+  "version": "1.0.0",
+  "private": true,
+  "description": "JavaScript DSA interview preparation repository",
+  "scripts": {
+    "test": "echo \"No tests configured yet\" && exit 0"
+  },
+  "keywords": ["javascript", "dsa", "interview", "algorithms"],
+  "license": "MIT"
+}
