@@ -14,3 +14,13 @@ for (let i = 0; i < array.length; i++) {
 if (!found) {
     console.log("Target not found");
 }
+
+//TODO:- Second Method 
+
+const index = array.indexOf(target);
+
+if (index !== -1) {
+    console.log("Target found at index:", index);
+} else {
+    console.log("Target not found");
+}
