@@ -56,5 +56,5 @@ function twoSum(array, target) {
 }
 
 
-// Execute function
+// Execute function fn
 console.log(twoSum(array, target));
