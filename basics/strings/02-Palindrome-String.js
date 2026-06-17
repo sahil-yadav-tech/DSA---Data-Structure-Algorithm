@@ -34,3 +34,53 @@ function isPalindrome(inputString) {
 
 console.log(isPalindrome(originalString)); // true
 
+
+/*
+====================================================
+CHECK PALINDROME WITHOUT USING REVERSE()
+====================================================
+
+Steps:
+1. Create an empty string.
+2. Traverse the original string.
+3. Add each character at the beginning.
+4. Compare reversed string with original string.
+
+Example:
+
+Input: "lil"
+
+Iteration 1:
+reversedString = "l"
+
+Iteration 2:
+reversedString = "i" + "l"
+reversedString = "il"
+
+Iteration 3:
+reversedString = "l" + "il"
+reversedString = "lil"
+
+Compare:
+"lil" === "lil"
+
+Output: true
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+====================================================
+*/
+
+const originalStringValue = "lil";
+
+function checkPalindromeManually(inputString) {
+  let reversedString = "";
+
+  for (let index = 0; index < inputString.length; index++) {
+    reversedString = inputString[index] + reversedString;
+  }
+
+  return inputString === reversedString;
+}
+
+console.log(checkPalindromeManually(originalStringValue)); // true
