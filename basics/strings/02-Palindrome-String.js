@@ -84,3 +84,52 @@ function checkPalindromeManually(inputString) {
 }
 
 console.log(checkPalindromeManually(originalStringValue)); // true
+
+
+/*
+====================================================
+CHECK PALINDROME USING TWO POINTERS
+====================================================
+
+Steps:
+1. Place one pointer at the start.
+2. Place another pointer at the end.
+3. Compare characters.
+4. If any mismatch occurs, return false.
+5. If all characters match, return true.
+
+Example:
+
+"level"
+
+l === l
+e === e
+
+Pointers meet in the middle.
+
+Output: true
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+====================================================
+*/
+
+const wordToCheck = "level";
+
+function isPalindromeUsingTwoPointers(inputString) {
+  let leftPointer = 0;
+  let rightPointer = inputString.length - 1;
+
+  while (leftPointer < rightPointer) {
+    if (inputString[leftPointer] !== inputString[rightPointer]) {
+      return false;
+    }
+
+    leftPointer++;
+    rightPointer--;
+  }
+
+  return true;
+}
+
+console.log(isPalindromeUsingTwoPointers(wordToCheck)); // true
