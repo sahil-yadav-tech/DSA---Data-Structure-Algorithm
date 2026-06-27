@@ -59,3 +59,4 @@ function twoSum(array, target) {
 // Execute function fn
 console.log(twoSum(array, target));
 
+
