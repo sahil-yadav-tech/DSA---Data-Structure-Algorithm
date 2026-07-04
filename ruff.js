@@ -1,21 +1,14 @@
-const array = [1, 2, 3, 4, 5, 1];
-let newArrayValue = [];
-let dublicateArrayValue =[]
-
-for (let i = 0; i < array.length; i++) {
+const findLargetValue = (array) => {
+  let maxValue = array[0];
+  for (let i = 0; i < array.length; i++) {
     const element = array[i];
-
-    if(!newArrayValue.includes(array[i])){
-        console.log("hey");
-        newArrayValue.push(array[i])
-    }else{
-        console.log("Bye");
-        dublicateArrayValue.push(array[i])
+    if (element > maxValue) {
+      maxValue = element;
     }
-    
-}
+  }
 
-console.log(newArrayValue, "newArray");
-console.log(dublicateArrayValue, "dublicateArrayValue");
+  return maxValue;
+};
 
-
+let array = [4, 8, 9, 5, 3, 7, 15];
+console.log(findLargetValue(array));
