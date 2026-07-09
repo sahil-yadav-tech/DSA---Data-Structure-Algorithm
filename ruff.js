@@ -1,14 +1,13 @@
-const findLargetValue = (array) => {
-  let maxValue = array[0];
+const arrayValue = [41, 25, 63, 56, 45];
+let value = 25;
+const linearSerch = (array, target) => {
   for (let i = 0; i < array.length; i++) {
     const element = array[i];
-    if (element > maxValue) {
-      maxValue = element;
+    console.log(element, "element");
+    if(element===target){
+        return [array[i], i]
     }
   }
-
-  return maxValue;
 };
+console.log(linearSerch(arrayValue, value));
 
-let array = [4, 8, 9, 5, 3, 7, 15];
-console.log(findLargetValue(array));

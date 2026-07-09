@@ -1,0 +1,6 @@
+basics/sorting
+01-bubble-sort.js
+02-selection-sort.js
+03-insertion-sort.js
+04-merge-sort.js
+05-quick-sort.js

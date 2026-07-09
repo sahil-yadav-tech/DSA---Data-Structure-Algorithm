@@ -1,0 +1,9 @@
+basics/math
+01-prime-number.js
+02-factorial.js
+03-fibonacci.js
+04-power.js
+05-gcd.js
+06-lcm.js
+07-armstrong.js
+08-palindrome-number.js
