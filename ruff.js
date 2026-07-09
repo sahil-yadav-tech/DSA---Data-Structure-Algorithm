@@ -1,13 +1,12 @@
-const arrayValue = [41, 25, 63, 56, 45];
-let value = 25;
-const linearSerch = (array, target) => {
+const arrayValue = [41, 25, 63, 56, 45, 100, 10, 500];
+
+const sumOfArray = (array) => {
+  let sum = 0;
   for (let i = 0; i < array.length; i++) {
     const element = array[i];
-    console.log(element, "element");
-    if(element===target){
-        return [array[i], i]
-    }
+    sum += array[i];
   }
+  return sum;
 };
-console.log(linearSerch(arrayValue, value));
 
+console.log("The sum of array is ", sumOfArray(arrayValue));

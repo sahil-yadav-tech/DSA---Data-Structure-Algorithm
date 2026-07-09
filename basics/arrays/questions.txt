@@ -1,9 +1,9 @@
 basics/arrays
-01-linear-search.js
-02-largest-element.js
-03-smallest-element.js
+01-linear-search.js ✅
+02-largest-element.js ✅
+03-smallest-element.js✅
 04-second-largest-element.js
-05-reverse-array.js
+05-reverse-array.js✅
 06-sum-of-array.js
 07-average-of-array.js
 08-even-and-odd-count.js
