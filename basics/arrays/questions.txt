@@ -6,7 +6,7 @@ basics/arrays
 05-reverse-array.js✅
 06-sum-of-array.js✅
 07-average-of-array.js✅
-08-even-and-odd-count.js
+08-even-and-odd-count.js✅
 09-maximum-difference.js
 10-count-occurrences.js
 11-check-array-sorted.js
