@@ -4,8 +4,8 @@ basics/arrays
 03-smallest-element.js✅
 04-second-largest-element.js
 05-reverse-array.js✅
-06-sum-of-array.js
-07-average-of-array.js
+06-sum-of-array.js✅
+07-average-of-array.js✅
 08-even-and-odd-count.js
 09-maximum-difference.js
 10-count-occurrences.js
