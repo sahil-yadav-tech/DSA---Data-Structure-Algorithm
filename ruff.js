@@ -17,5 +17,3 @@ const maxDifference = (array) => {
 
 console.log("The maxDifference of array is ", maxDifference(arrayValue));
 // Output: 490 (500 - 10)
-
-
