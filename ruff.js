@@ -12,9 +12,4 @@ const countOccurrences = (array) => {
     return count
 };
 
-<<<<<<< HEAD
 console.log("The maxDifference of array is ", countOccurrences(arrayValue));
-=======
-console.log("The maxDifference of array is ", maxDifference(arrayValue));
-// Output: 490 (500 - 10)
->>>>>>> 5636b387ba0d4da99e7c0edb8b1f9c9b7bc6375e
