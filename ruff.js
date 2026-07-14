@@ -1,12 +1,13 @@
-const array = [1, 2, 3, 4, 5];
-
-let isSorted = true;
+const array = [1, 2, 3, 4, 5, 8, 15.2];
 
 for (let i = 0; i < array.length - 1; i++) {
-    if (array[i] > array[i + 1]) {
-        isSorted = false;
-        break;
-    }
-}
+    let current = array[i];
+    let next = array[i + 1];
 
-console.log(isSorted);
+
+    while (next - current> 1) {
+         console.log("Missing Number:", current + 1);
+        current++;
+    }
+
+}
