@@ -12,7 +12,7 @@ basics/arrays
 11-check-array-sorted.js✅
 12-find-missing-number.js✅
 13-remove-duplicates.js
-14-move-zeroes.js
+14-move-zeroes.js✅
 15-first-unique-element.js
 16-find-intersection.js
 17-rotate-array.js
