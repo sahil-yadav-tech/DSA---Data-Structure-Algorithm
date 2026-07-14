@@ -1,19 +1,15 @@
-const arrayValue = [41, 25, 63, 56, 45, 100, 10, 500];
-
-const maxDifference = (array) => {
-  let maxDifferenceIs = -Infinity;
-  
-  for (let i = 0; i < array.length; i++) {
-    for (let j = 0; j < array.length; j++) {
-      let difference = array[i] - array[j];
-      if (difference > maxDifferenceIs) {
-        maxDifferenceIs = difference;
-      }
+const arrayValue = [41, 25, 63, 56,41, 45,45, 100, 10, 500, 45];
+let target = 45
+let count = 0
+const countOccurrences = (array) => {
+    console.log(array, "count-occurrences.js");
+    for (let i = 0; i < array.length; i++) {
+        const element = array[i];
+        if(element===target){
+            count++
+        }
     }
-  }
-  
-  return maxDifferenceIs;  // ✅ Return the calculated value
+    return count
 };
 
-console.log("The maxDifference of array is ", maxDifference(arrayValue));
-// Output: 490 (500 - 10)
+console.log("The maxDifference of array is ", countOccurrences(arrayValue));
