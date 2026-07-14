@@ -10,7 +10,7 @@ basics/arrays
 09-maximum-difference.js✅
 10-count-occurrences.js✅
 11-check-array-sorted.js✅
-12-find-missing-number.js
+12-find-missing-number.js✅
 13-remove-duplicates.js
 14-move-zeroes.js
 15-first-unique-element.js
