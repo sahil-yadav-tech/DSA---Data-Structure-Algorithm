@@ -9,6 +9,9 @@ const countOccurrences = (array) => {
   return arrayObj; // Return the object
 };
 
+
+
 const result = countOccurrences(arrayValue);
 console.log("The count of occurrences is:", result);
 // Output: The count of occurrences is: { '10': 2, '25': 2, '41': 2, '45': 3, '56': 1, '63': 1, '100': 1, '500': 1 }
+
