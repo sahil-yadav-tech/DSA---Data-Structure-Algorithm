@@ -1,9 +1,10 @@
 const reverseString = (string) => {
-  let ReverseStringValue = "";
+  let checkPalindrome = "";
   for (let i = 0; i < string.length; i++) {
-    ReverseStringValue = string[i] + ReverseStringValue;
+    checkPalindrome = string[i] + checkPalindrome;
   }
-  return ReverseStringValue;
+  
+  return string === checkPalindrome
 };
 
-console.log(reverseString("hey There")); // "erehT yeh"
+console.log(reverseString("lilil")); // "erehT yeh"
