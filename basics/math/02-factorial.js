@@ -26,7 +26,7 @@ console.log(factorial(4)); // 24
 
 // const printCount = (number) => {
 //     console.log(number, "number");
-    
+
 //   if (number === 20) {
 //     console.log("done");
 //     return;
