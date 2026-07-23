@@ -1,10 +1,9 @@
-const reverseString = (string) => {
-  let checkPalindrome = "";
-  for (let i = 0; i < string.length; i++) {
-    checkPalindrome = string[i] + checkPalindrome;
-  }
-  
-  return string === checkPalindrome
+const obj1 = {
+  name: "Sahil"
 };
 
-console.log(reverseString("lilil")); // "erehT yeh"
+console.log(Object.keys(obj1));
+console.log(Object.values(obj1));
+console.log(Object.entries(obj1));
+
+
