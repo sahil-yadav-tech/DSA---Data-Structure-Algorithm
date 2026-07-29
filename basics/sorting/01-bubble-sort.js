@@ -1,3 +1,5 @@
+// TODO:-Compare two neighbors. If left is bigger than right, swap them. Keep doing this until everything is sorted!
+
 // Starting array
 const array = [45, 55, 25, 10, 98, 87, 10];
 
@@ -95,3 +97,5 @@ After swap:  [ ... , Y , X , ... ]  ← Now Y comes before X (correct order!)
 
 ========================================================================
 */
+
+// ! array.length - 1 - i = Ignore the sorted elements already placed at the end.
