@@ -16,7 +16,8 @@ for (let i = 0; i < array.length - 1; i++) {
       array[j + 1] = temp;        // Move saved number to right
       console.log(`Swapped: ${array[j]} and ${array[j + 1]}`);
     }
-  }
+    
+}
 }
 
 // Print final sorted array
