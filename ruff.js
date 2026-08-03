@@ -1,12 +1,13 @@
-const array = [45, 55, 25, 10, 98, 87, 11];
-const target = 100;
+const array = [100, 45, 55, 25, 10, 98, 87, 11];
 
 for (let i = 0; i < array.length; i++) {
-  for (let j = 0; j < array.length; j++) {
-    if (array[i] + array[j] === target) {
-      console.log(array[i] + array[j] === target, "Founded ");
-
-      break;
+  for (let j = 0; j < array.length - i; j++) {
+    if (array[j] > array[j + 1]) {
+      let temp = array[j];
+      array[j] = array[j + 1];
+      array[j + 1] = temp;
     }
   }
 }
+
+console.log(array);
