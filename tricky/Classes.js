@@ -1,40 +1,56 @@
-class User{
-    constructor(name, age, balanace){
-        this.name = name
-        this.age= age
-        this.balanace = balanace
+class User {
+  constructor(name, age, balance) {
+    this.name = name;
+    this.age = age;
+    this.balance = balance;
+  }
+
+  deposit(amount) {
+    this.balance += amount;
+  }
+
+  withdraw(amount) {
+    if (amount > this.balance) {
+      console.log("Insufficient Balance");
+      return;
     }
 
-    deposite(amount){
-        this.balanace += amount
-    }
+    this.balance -= amount;
+  }
 
-    withdraw(amount){
-        this.balanace -= amount
-    }
-
-    get balanaceValue(){
-        return this.balanace
-    }
+  get balanceValue() {
+    return this.balance;
+  }
 }
 
-class Begger extends User{
-    constructor(name, work){
-        super(name)
-        super.deposite(45)
-    }
+class Begger extends User {
+  constructor(name, age, work) {
+    // Call parent constructor
+    super(name, age, 0);
+
+    this.work = work;
+
+    // Call parent method
+    super.deposit(45);
+  }
 }
 
-const user1 = new User("sahil",22, 0)
-console.log(user1);
+// Parent object
+const user1 = new User("Sahil", 22, 1000);
 
-// user1.deposite(8000000000000)
-// console.log(user1);
-// user1.withdraw(1)
-// console.log(user1);
-// console.log(user1.balanaceValue);
+console.log("User:", user1);
 
+user1.deposit(500);
+console.log("After Deposit:", user1);
 
-const Begger1 = new Begger("sahil","IT DEVELOPER")
-console.log(Begger1, "Begger1");
+user1.withdraw(300);
+console.log("After Withdraw:", user1);
 
+console.log("Balance:", user1.balanceValue);
+
+// Child object
+const begger1 = new Begger("Rahul", 30, "Street Performer");
+
+console.log("Begger:", begger1);
+
+console.log("Balance:", begger1.balanceValue);
