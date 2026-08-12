@@ -1,27 +1,37 @@
-class User {
-  name;
-  constructor(name, age) {
-    this.name = name;
-    this.age = age;
-  }
-//   set userNameChaneg(pagel) {
-//     this.name = pagel;
-//     console.log(name);
-//   }
+// Check if a string is a palindrome.
 
-    speak() {
-    console.log("Animal speaks");
-  } 
+// const checkPalidrome = (string) =>{
+//   let ReverseArray = string.split("").reverse().join("")
+//   return string === ReverseArray
+//   console.log(ReverseArray, "ReverseArray");
+  
+// }
 
+// console.log(checkPalidrome("lilil"));
+
+
+
+
+// Reverse a string without using built-in methods.
+// const string ="sahilyadav"
+// let reverseString = ""
+// for (let i = 0; i < string.length; i++) {
+//   const element = string[i];
+//   reverseString = string[i] +reverseString 
+  
+// }
+
+// console.log(reverseString, "reverseString");
+
+// Count the occurrences of a character in a string.
+const string ="sahilyadav"
+let obj ={}
+for (let index = 0; index < string.length; index++) {
+obj[string[i]] = (obj[string[i]] ||0 ) +1
+  
 }
+console.log(obj);
 
-class Student extends User{
-    speak(){
-        console.log("Animal  twooooo speaks");
-    }
-}
 
-let user = new User("sahil", 15);
-Student.speak()
-// user.userNameChaneg();
-console.log(user, "User");
+// Find the longest substring without repeating characters.
+// Check if two strings are anagrams.
