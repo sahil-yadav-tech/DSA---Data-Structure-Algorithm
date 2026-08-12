@@ -1,15 +1,27 @@
-let obj ={
-    name:"sahil"
+class User {
+  name;
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+//   set userNameChaneg(pagel) {
+//     this.name = pagel;
+//     console.log(name);
+//   }
+
+    speak() {
+    console.log("Animal speaks");
+  } 
+
 }
 
-let obj2 ={
-    names:"sahilsss"
+class Student extends User{
+    speak(){
+        console.log("Animal  twooooo speaks");
+    }
 }
 
-let result = Object.assign({},obj, obj2)
-console.log(result, "Result");
-
-console.log(Object.keys(obj));
-console.log(Object.values(obj));
-console.log(Object.entries(obj));
-
+let user = new User("sahil", 15);
+Student.speak()
+// user.userNameChaneg();
+console.log(user, "User");
