@@ -1,6 +1,6 @@
 1. Arrays
-
-Find the largest and smallest element in an array.
+Reverse an array in place.✅
+Find the largest and smallest element in an array.✅
 Find the duplicate in an array of integers.
 
 Find the missing number in an array of 1 to n.
