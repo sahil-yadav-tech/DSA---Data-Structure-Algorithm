@@ -1,5 +1,5 @@
 1. Arrays
-Reverse an array in place.
+
 Find the largest and smallest element in an array.
 Find the duplicate in an array of integers.
 
