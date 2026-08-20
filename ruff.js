@@ -12,3 +12,13 @@
 //     reversString = string[index]  +reversString
 // }
 // console.log(reversString);
+
+
+// Check if two strings are anagrams.
+// const CheckAnagram =(string1, string2) =>{
+//     const data1 = string1.split("").sort().join("")
+//     const data2 = string2.split("").sort().join("")
+//     console.log(data1, data2);
+// }
+
+// CheckAnagram("listen", "silent")
