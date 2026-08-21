@@ -13,7 +13,6 @@
 // }
 // console.log(reversString);
 
-
 // Check if two strings are anagrams.
 // const CheckAnagram =(string1, string2) =>{
 //     const data1 = string1.split("").sort().join("")
@@ -22,3 +21,5 @@
 // }
 
 // CheckAnagram("listen", "silent")
+
+// Find the first non-repeated character in a string.

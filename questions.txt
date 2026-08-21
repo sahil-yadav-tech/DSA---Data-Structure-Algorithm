@@ -21,6 +21,8 @@ Implement string compression (e.g., 'aabcc' → 'a2b1c2').
 Replace all spaces in a string with '%20'.
 Convert a string to a number (parseInt, custom implementation).
 Find the first non-repeated character in a string.
+
+
 3. Linked Lists
 Implement a singly linked list with basic operations (insert, delete, search).
 Detect a cycle in a linked list (using Floyd’s cycle-finding algorithm).
