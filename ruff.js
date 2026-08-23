@@ -1,5 +1,5 @@
 function userdetails(){
-    console.log(`${this.userId} ${this.name}`);
+    console.log(`${this.userId} ${this.name}`));
 }
 
 let obj = {
